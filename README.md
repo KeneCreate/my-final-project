@@ -1,9 +1,11 @@
 Features:
--Filter
--Login verification(2factor   authentication)
--Chat engine
--Geomap
--Tagging
+- create an account
+- viewing posts on a public board
+- creating a post
+- chat between members
+- buying and selling items
+
+
 
 ![Page 1](page1a.jpeg)
 ![Page 2](page2a.jpeg)
