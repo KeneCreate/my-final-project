@@ -127,23 +127,34 @@ span.psw {
 }
 </style>
 <body>
-        <a href="signup.html">Signup</a>
-        <br>
+
  
     <div class="container">
-      <label><b>First name</b></label>
-      <input type="text" placeholder="Enter First name" name="fname" required>
+      <label><b>Firstname</b></label>
+      <input type="text" placeholder="Enter Firstname" name="fname" required>
  
-      <label><b>Last name</b></label>
+      <label><b>Lastname</b></label>
+      <input type="text" placeholder="Enter Lastname" name="lname" required>
+
+      <label><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label><b>Confirm password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+<label><b>Email</b></label>
+      <input type="text" placeholder="Enter your Email" name="email" required>
+      <br>
+<br>
+      <label><b>Cell#</b></label>
+      <input type="number" placeholder="Enter cell/mobile number" name="celln" required>
         
-      <button type="submit">Login</button>
-      <input type="checkbox" checked="checked"> Remember me
+      <button type="submit">Submit</button>
     </div>
  
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
+      <span class="psw">Already have an account? <a href="#">Login</a></span>
     </div>           
 
 

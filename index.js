@@ -7,8 +7,23 @@ app.use(express.static('public'))
 app.set('view engine','pug')
 
 app.get('',(req,res)=>{
-res.render('index',{})
+res.render('home',{})
 })
+app.get('',(req,res)=>{
+  res.render('about',{})
+  })
+  app.get('',(req,res)=>{
+    res.render('product',{})
+    })
+    app.get('',(req,res)=>{
+      res.render('contact',{})
+      })
+      app.get('',(req,res)=>{
+        res.render('login',{})
+        })
+        app.get('',(req,res)=>{
+          res.render('signup',{})
+          })
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
